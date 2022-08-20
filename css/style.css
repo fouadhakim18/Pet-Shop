@@ -731,6 +731,10 @@ img {
 .tests {
   background-color: var(--section-background);
 }
+.tests .section-title {
+      margin-right: 40px;
+    margin-left: 40px;
+}
 .tests .category {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -928,6 +932,8 @@ img {
 }
 .events .section-title {
   margin-bottom: 30px;
+      margin-right: 40px;
+    margin-left: 40px;
 }
 .events .content {
   display: flex;
@@ -1042,6 +1048,10 @@ img {
 .discount .content {
   display: flex;
 }
+.discount .section-title {
+      margin-right: 40px;
+    margin-left: 40px;
+}
 @media (max-width: 991px) {
   .discount .content {
     flex-direction: column;
@@ -1136,6 +1146,10 @@ textarea:focus::-webkit-input-placeholder {
 /* end discount */
 
 /* start stats */
+.statists .section-title {
+      margin-right: 50px;
+    margin-left: 50px;
+}
 .statists .all-category {
   background-image: url(../imgs/stats.jpg);
   background-size: cover;
@@ -1210,6 +1224,10 @@ textarea:focus::-webkit-input-placeholder {
 .sitters {
   padding-right: 15px;
   padding-left: 15px;
+}
+.sitters .section-title {
+      margin-right: 50px;
+    margin-left: 50px;
 }
 .sitters .container {
   padding-bottom: 40px;
@@ -1534,8 +1552,6 @@ textarea:focus::-webkit-input-placeholder {
 .products .view-all i {
   margin-left: 10px;
   font-size: 18px;
-}
-.products .view-all:hover i {
   animation: bouncing 2s infinite;
 }
 @keyframes bouncing {
