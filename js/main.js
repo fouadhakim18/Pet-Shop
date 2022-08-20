@@ -55,7 +55,7 @@ window.onscroll = function () {
   showItems(arrayOfServs)
   showItems(arrayOfTests)
       sectionTitles.forEach((title) => {
-        if (window.pageYOffset > title.offsetTop - 450) {
+        if (window.pageYOffset > title.offsetTop - 500) {
           title.classList.remove("animate__zoomOut");
           title.classList.add(
             "opacity",
