@@ -1,0 +1,1868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="css/all.min.css">
+     <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+
+  <!-- Start Main page  -->
+    <div class="main-page">
+
+    <!-- start header  -->
+    <header id="header">
+        <div class="container">
+        <div class="logo">
+            <div class="icon"><i class="fa-solid fa-paw"></i></div>
+            <div class="name">Pets <span>Hub</span></div>            
+        </div>
+        <ul class="menu">
+            <li><a href="#home" data-after= "Home">Home</a></li>
+            <li><a href="#services" data-after= "Services">Services</a></li>
+            <li><a href="#products" data-after= "Products">Products</a></li>
+            <li><a href="#clients" data-after= "Clients">Clients</a></li>
+            <li><a href="#pricing" data-after= "Pricing">Pricing</a></li>
+            <li><a href="#discount" data-after= "Discount">Discount</a></li>
+            <li><a href="#team" data-after= "Team">Team</a></li>
+        </ul>
+        <div class="icons-humb">
+        <div class="icons">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-user" id="user"></i>
+        </div>
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <div class="sign"> 
+            <h2>Sign in</h2>
+            <input type="email" name="" placeholder="enter your email">
+            <input type="password" name="" placeholder="enter your password">
+            <div>
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember">Remember me<label>
+                </div>
+            <div class="confirm">
+                <a href="">Sign In</a>
+            </div>
+            <div class="others">
+                <a href="">Forgot password ?</a>
+                <a href="">Sign Up</a>
+            </div>
+        </div>
+        </div>
+        
+    </header>
+    <!-- end header -->
+
+    <!-- start landing  -->
+    <div class="landing" id="home">
+        <div class="container">
+        <div class="text">
+            <h1>Give <div>Satisfaction</div> to your pet</h1>
+            <p>make your pet comfortable, satisfied, happy with you by providing the best pets facilities and food</p>
+            <div class="shop">
+                <a href="#">Shop Now</a>
+                <span>
+                <svg class="button__svg" role="presentational" viewBox="0 0 600 600">
+    <defs>
+      <clipPath id="myClip">
+        <rect x="0" y="0" width="100%" height="50%" />
+      </clipPath>
+    </defs>
+    <g clip-path="url(#myClip)">
+      <g id="money">
+        <path d="M441.9,116.54h-162c-4.66,0-8.49,4.34-8.62,9.83l.85,278.17,178.37,2V126.37C450.38,120.89,446.56,116.52,441.9,116.54Z" fill="#699e64" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+        <path d="M424.73,165.49c-10-2.53-17.38-12-17.68-24H316.44c-.09,11.58-7,21.53-16.62,23.94-3.24.92-5.54,4.29-5.62,8.21V376.54H430.1V173.71C430.15,169.83,427.93,166.43,424.73,165.49Z" fill="#699e64" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+      </g>
+      <g id="creditcard">
+        <path d="M372.12,181.59H210.9c-4.64,0-8.45,4.34-8.58,9.83l.85,278.17,177.49,2V191.42C380.55,185.94,376.75,181.57,372.12,181.59Z" fill="#a76fe2" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+        <path d="M347.55,261.85H332.22c-3.73,0-6.76-3.58-6.76-8v-35.2c0-4.42,3-8,6.76-8h15.33c3.73,0,6.76,3.58,6.76,8v35.2C354.31,258.27,351.28,261.85,347.55,261.85Z" fill="#ffdc67" />
+        <path d="M249.73,183.76h28.85v274.8H249.73Z" fill="#323c44" />
+      </g>
+    </g>
+    <g id="wallet">
+      <path d="M478,288.23h-337A28.93,28.93,0,0,0,112,317.14V546.2a29,29,0,0,0,28.94,28.95H478a29,29,0,0,0,28.95-28.94h0v-229A29,29,0,0,0,478,288.23Z" fill="#a4bdc1" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+      <path d="M512.83,382.71H416.71a28.93,28.93,0,0,0-28.95,28.94h0V467.8a29,29,0,0,0,28.95,28.95h96.12a19.31,19.31,0,0,0,19.3-19.3V402a19.3,19.3,0,0,0-19.3-19.3Z" fill="#a4bdc1" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+      <path d="M451.46,435.79v7.88a14.48,14.48,0,1,1-29,0v-7.9a14.48,14.48,0,0,1,29,0Z" fill="#a4bdc1" stroke="#323c44" stroke-miterlimit="10" stroke-width="14" />
+      <path d="M147.87,541.93V320.84c-.05-13.2,8.25-21.51,21.62-24.27a42.71,42.71,0,0,1,7.14-1.32l-29.36-.63a67.77,67.77,0,0,0-9.13.45c-13.37,2.75-20.32,12.57-20.27,25.77l.38,221.24c-1.57,15.44,8.15,27.08,25.34,26.1l33-.19c-15.9,0-28.78-10.58-28.76-25.93Z" fill="#7b8f91" />
+      <path d="M148.16,343.22a6,6,0,0,0-6,6v92a6,6,0,0,0,12,0v-92A6,6,0,0,0,148.16,343.22Z" fill="#323c44" />
+    </g>
+
+                </svg>
+                </span>   
+            </div>
+        </div>
+        <div class="img">
+        <img src="imgs/landing-3.png" alt="">
+        </div>
+    </div>
+    </div>
+    <!-- end landing -->
+
+    </div>
+  <!-- End Main page  -->
+
+     <!-- Start Services  -->
+    <section class="services padding" id="services">
+      <div class="container">
+      <div class="section-title">
+        <h1>Our Services</h1>
+      </div>
+      <div class="category">
+        <div class="item" id="service1">
+          <div class="content">
+            <img src="imgs/services-1.png" alt="">
+            <h2>Boarding</h2>
+          </div>
+          <div class="bottom">
+            <div class="start">Start</div>
+            <div class="gray"></div>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="item" id="service2">
+          <div class="content">
+             <img src="imgs/services-2.png" alt="">
+            <h2>Self-Serve Washing</h2>
+          </div>
+          <div class="bottom">
+            <div class="start">Start</div>
+            <div class="gray"></div>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="item" id="service3">
+          <div class="content">
+            <img src="imgs/services-3.png" alt="">
+            <h2>Health Care</h2>
+          </div>
+          <div class="bottom">
+            <div class="start">Start</div>
+            <div class="gray"></div>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="item" id="service4">
+          <div class="content">
+            <img src="imgs/services-4.png" alt="">
+            <h2>Healthy Food</h2>
+          </div>
+          <div class="bottom">
+            <div class="start">Start</div>
+            <div class="gray"></div>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="item" id="service5">
+          <div class="content">
+            <img src="imgs/services-5.png" alt="">
+            <h2>Activity Exercise</h2>
+          </div>
+          <div class="bottom">
+            <div class="start">Start</div>
+            <div class="gray"></div>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="item" id="service6">
+          <div class="content">
+            <img src="imgs/services-6.png" alt="">
+            <h2>Grooming</h2>
+          </div>
+          <div class="bottom">
+            <div class="start">Start</div>
+            <div class="gray"></div>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- end Services  -->
+
+    <!-- Start products  -->
+    <section class="products padding" id="products">
+      <div class="container">
+        <div class="section-title">
+          <h1>Our  Products</h1>
+        </div>
+        <div class="best-category category">
+          <h3>Best Products</h3>
+          <div class="view-all">
+            <h4>View All</h4>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="swiper myBestSwiper">
+            <div class="swiper-wrapper container">
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-6.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Loving Pets Dolce</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Double Diner Non-Skid Elevated Dog & Cat Bowls, Pink</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-8.jpg" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>MidWest Spree</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>carrier that allows you to take your furry on a quick trip.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-7.jpg" alt="" >
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Cat Bed</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>This plush Trixie bed is perfect for small dogs and cats.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-1.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Wellness Signature</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Flaked Tuna & Shrimp Entree in Broth Grain-Free food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-6.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3> Cat Bowl </h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Stainless Steel with Melamine Stand Cat Bowl</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-6.webp" alt="" style="width: 160px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Seed Cake</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Harvest Seed & Supply Songbird Seed Cake Wild Bird Food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-7.webp" alt="" style="width: 170px;margin-top: 10px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Bird Cage</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Designed for small birds like finches, canaries and budgies.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-10.jpg" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Bird Bath</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Constructed from heavy-duty plastic for long-lasting use.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination prod-pagination best-pagination"></div>
+          <div class="swiper-button-next next-prod next-best"> <img src="imgs/up-arrow.png" alt=""> </div>
+          <div class="swiper-button-prev prev-prod prev-best"><img src="imgs/up-arrow.png" alt=""></div>
+        </div>
+        <div class="dog-category category">
+          <h3>Dogs Supplies</h3>
+          <div class="view-all">
+            <h4>View All</h4>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="swiper myDogSwiper">
+            <div class="swiper-wrapper container">
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Complete Nutrition</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Roasted Chicken, Rice & Vegetable Flavor Dry Dog Food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Purina ONE</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>SmartBlend Cuts in Gravy Variety Pack Canned Food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-3.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Purina Beneful</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Chopped Blends Variety Pack Wet Dog Food By Purina ONE</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+               <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-4.webp" alt="" style="width: 200px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Cesar Bacon Feast</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Bacon Feast Loaf & Topper Multipack Wet Dog Food Trays</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-5.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Three Dog Bakery</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Three Dog Bakery Lick 'N Crunch Variety Pack Dog Treats</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-6.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Loving Pets Dolce</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Double Diner Non-Skid Elevated Dog & Cat Bowls, Pink</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-7.webp" alt="" style="width: 160px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Outward Hound</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Granby RipStop Dog Life Jacket, Medium Bright Orange</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/dog-8.jpg" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>MidWest Spree</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>carrier that allows you to take your furry on a quick trip.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination prod-pagination dog-pagination"></div>
+          <div class="swiper-button-next next-prod next-dog"> <img src="imgs/up-arrow.png" alt=""> </div>
+          <div class="swiper-button-prev prev-prod prev-dog"><img src="imgs/up-arrow.png" alt=""></div>
+        </div>
+        <div class="cat-category category">
+          <h3>Cats Supplies</h3>
+          <div class="view-all">
+            <h4>View All</h4>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="swiper myCatSwiper">
+            <div class="swiper-wrapper container">
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-7.jpg" alt="" >
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Cat Bed</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>This plush Trixie bed is perfect for small dogs and cats.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-1.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Wellness Signature</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Flaked Tuna & Shrimp Entree in Broth Grain-Free food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-2.jpg" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Friskies Shreds</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Friskies Shreds Variety Pack Canned Cat Food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-3.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Medleys Florentine</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Fancy Feast Medleys Florentine Collection Pack Canned Cat Food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+               <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-4.jpg" alt="" style="width: 165px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Tiny Tiger</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Chunks in EXTRA Gravy Turkey Recipe Grain Canned Cat Food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-5.webp" alt="" style="width: 160px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Orijen</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Original Grain-Free Freeze-Dried Cat Treats</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-6.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3> Cat Bowl </h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Stainless Steel with Melamine Stand Cat Bowl</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/cat-8.jpg" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Plush Mouse</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Trixie Cat Toy Plush Mouse with Catnip, Cute as the Dickens</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination prod-pagination cat-pagination"></div>
+          <div class="swiper-button-next next-prod next-cat"> <img src="imgs/up-arrow.png" alt=""> </div>
+          <div class="swiper-button-prev prev-prod prev-cat"><img src="imgs/up-arrow.png" alt=""></div>
+        </div>
+        <div class="bird-category category">
+          <h3>Birds Supplies</h3>
+          <div class="view-all">
+            <h4>View All</h4>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="swiper myBirdSwiper">
+            <div class="swiper-wrapper container">
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-6.webp" alt="" style="width: 160px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Seed Cake</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Harvest Seed & Supply Songbird Seed Cake Wild Bird Food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-7.webp" alt="" style="width: 170px;margin-top: 10px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Bird Cage</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Designed for small birds like finches, canaries and budgies.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-1.jpg" alt="" style="width: 117px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Universal Blend</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>TBlended for small birds, this diet is ideal for canaries,finches.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-9.webp" alt="" style="width: 155px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Feeding Station</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Enjoy a scenic view from the comfort of your home.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-2.jpg" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Bird's Blend</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Made of rendered beef suet and loaded with seeds birds love</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-3.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Woodpecker Treat</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Specially formulated for use with suet cake feeders</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-4.webp" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Suet Cakes</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Heath Multi-Grain Songbird Suet Cake Wild Bird Food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+               <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-5.jpg" alt="" style="width: 165px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>High Energy Delight</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>C&S High Energy Delight No Melt Suet Dough Wild Bird Food</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-8.webp" alt="" style="width: 170px;margin-top: 7px;">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Bird Cage</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Convenient landing-style front access door</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item swiper-slide">
+                <div class="img">
+                  <img src="imgs/bird-10.jpg" alt="">
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h3>Bird Bath</h3>
+                    <img src="imgs/bookmarks.png" alt="">
+                  </div>
+                  <p>Constructed from heavy-duty plastic for long-lasting use.</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-regular fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <span>5.5</span>
+                  </div>
+                  <div class="bottom">
+                    <h4>18.2$</h4>
+                    <div class="buy">Add to cart</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination prod-pagination bird-pagination"></div>
+          <div class="swiper-button-next next-prod next-bird"> <img src="imgs/up-arrow.png" alt=""> </div>
+          <div class="swiper-button-prev prev-prod prev-bird"><img src="imgs/up-arrow.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Products -->
+
+    <!-- start pricing  -->
+    <section class="pricing padding" id="pricing">
+     <div class="container">
+        <div class="section-title">
+        <h1>Our plans</h1>
+        </div>
+        <div class="content">
+          <div class="item">
+            <h2>Basic</h2>
+            <h1>$100</h1>
+            <p>1 Day</p>
+            <ul>
+              <li>Walking</li>
+              <li>Basic Grooming</li>
+              <li>Healthy Food</li>
+              <li>Activity Exercice</li>
+              <li>Aroma Therapy</li>
+            </ul>
+            <a href="#">Choose Plan</a>
+          </div>
+          <div class="item">
+            <h2>Standard</h2>
+            <h1>$250</h1>
+            <p>1 Week</p>
+            <ul>
+              <li>Home Sitting</li>
+              <li>Grooming</li>
+              <li>Healthy Food</li>
+              <li>Activity Exercice & Pet Walking</li>
+              <li>Medical Treatment</li>
+            </ul>
+            <a href="#">Choose Plan</a>
+          </div>
+          <div class="item">
+            <h2>Premium</h2>
+            <h1>$450</h1>
+            <p>1 Month</p>
+            <ul>
+              <li>Boarding & Healthy Food</li>
+              <li> Full Grooming & Deluxe Bathing</li>
+              <li>Luxurious Hair Cut</li>
+              <li>Activity Exercice & Pet Walking</li>
+              <li>Extra Medical Treatment</li>
+
+            </ul>
+            <a href="#">Choose Plan</a>
+          </div>
+        </div>
+     </div>
+    </section>
+    <!-- end pricing  -->
+
+    <!-- start stats  -->
+    <section class="statists" id="statists">
+      <div class="section-title">
+        <h1>Why Choose Us ?</h1>
+      </div>
+      <div class="all-category">
+        <div class="container">
+        <div class="category">
+          <div class="item">
+            <img src="imgs/costumer.png" alt="">
+            <h1>+950</h1>
+            <h3>Happy Clients</h3>
+          </div>
+          <div class="item">
+            <img src="imgs/medal.png" alt="">
+            <h1>+85</h1>
+            <h3>Awards</h3>
+          </div>
+          <div class="item">
+            <img src="imgs/team.png" alt="">
+            <h1>60</h1>
+            <h3>Employees</h3>
+          </div>
+          <div class="item">
+            <img src="imgs/countries.png" alt="">
+            <h1>90</h1>
+            <h3>Country</h3>
+          </div>
+        </div>
+      </div>
+      </div>      
+    </section>
+    <!-- end stats -->
+
+    <!-- start sitters  -->
+    <section class="sitters padding" id="team">
+      <div class="section-title">
+        <h1>Meet The Team</h1>
+      </div>
+      <div class="slides-content">
+      <div class="slides-container swiper mySwiper">
+      <div class="category swiper-wrapper container">
+        <div class="item swiper-slide">
+          <div class="top">
+          <i class="fa-regular fa-heart"></i>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="img">
+          <img src="imgs/pet-sitter-1.jpeg" alt="">
+          </div>
+          </div>
+          <h2>Emily Jane</h2>
+          <h3>Pet sitter</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                  </div>
+          <div class="buttons">
+            <div class="hire"><i class="fa-solid fa-calendar-minus"></i> Hire Me</div>
+            <div class="view"><i class="fa-solid fa-eye"></i> View</div>
+          </div>
+        </div>
+      <div class="item swiper-slide">
+          <div class="top">
+          <i class="fa-regular fa-heart"></i>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="img">
+          <img src="imgs/pet-sitter-7.jpg" alt="">
+          </div>
+          </div>
+          <h2>Liam Henry</h2>
+          <h3>Dog trainer</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-regular fa-star"></i>
+                  </div>
+          <div class="buttons">
+            <div class="hire"><i class="fa-solid fa-calendar-minus"></i> Hire Me</div>
+            <div class="view"><i class="fa-solid fa-eye"></i> View</div>
+          </div>
+        </div>
+      <div class="item swiper-slide">
+          <div class="top">
+          <i class="fa-regular fa-heart"></i>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="img">
+          <img src="imgs/pet-sitter-2.jpg" alt="">
+          </div>
+          </div>
+          <h2>Celeste Lily</h2>
+          <h3>Retail Assistant</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-regular fa-star"></i>
+                  </div>
+          <div class="buttons">
+            <div class="hire"><i class="fa-solid fa-calendar-minus"></i> Hire Me</div>
+            <div class="view"><i class="fa-solid fa-eye"></i> View</div>
+          </div>
+        </div>
+      <div class="item swiper-slide">
+          <div class="top">
+          <i class="fa-regular fa-heart"></i>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="img">
+          <img src="imgs/pet-sitter-3.jpg" alt="">
+          </div>
+          </div>
+          <h2>Brianna Katelin</h2>
+          <h3>Daycare Attendant</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-regular fa-star"></i>
+                  </div>
+          <div class="buttons">
+            <div class="hire"><i class="fa-solid fa-calendar-minus"></i> Hire Me</div>
+            <div class="view"><i class="fa-solid fa-eye"></i> View</div>
+          </div>
+        </div>
+        <div class="item swiper-slide">
+          <div class="top">
+          <i class="fa-regular fa-heart"></i>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="img">
+          <img src="imgs/pet-sitter-4.jpg" alt="">
+          </div>
+          </div>
+          <h2>Alexa Gianna</h2>
+          <h3>Junior's</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+                  </div>
+          <div class="buttons">
+            <div class="hire"><i class="fa-solid fa-calendar-minus"></i> Hire Me</div>
+            <div class="view"><i class="fa-solid fa-eye"></i> View</div>
+          </div>
+        </div>
+        <div class="item swiper-slide">
+          <div class="top">
+          <i class="fa-regular fa-heart"></i>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="img">
+          <img src="imgs/pet-sitter-5.jpg" alt="">
+          </div>
+          </div>
+          <h2>Millie Tilda</h2>
+          <h3>Pet sitter</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-regular fa-star"></i>
+                  </div>
+          <div class="buttons">
+            <div class="hire"><i class="fa-solid fa-calendar-minus"></i> Hire Me</div>
+            <div class="view"><i class="fa-solid fa-eye"></i> View</div>
+          </div>
+        </div>
+        <div class="item swiper-slide">
+          <div class="top">
+          <i class="fa-regular fa-heart"></i>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="img">
+          <img src="imgs/pet-sitter-8.jpg" alt="">
+          </div>
+          </div>
+          <h2>Karolina & Jacob</h2>
+          <h3>Pet care assistants</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-regular fa-star"></i>
+                  </div>
+          <div class="buttons">
+            <div class="hire"><i class="fa-solid fa-calendar-minus"></i> Hire Me</div>
+            <div class="view"><i class="fa-solid fa-eye"></i> View</div>
+          </div>
+        </div>
+        <div class="item swiper-slide">
+          <div class="top">
+          <i class="fa-regular fa-heart"></i>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="img">
+          <img src="imgs/pet-sitter-12.webp" alt="">
+          </div>
+          </div>
+          <h2>Emma Isabella</h2>
+          <h3>Pet Groomer</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                  </div>
+          <div class="buttons">
+            <div class="hire"><i class="fa-solid fa-calendar-minus"></i> Hire Me</div>
+            <div class="view"><i class="fa-solid fa-eye"></i> View</div>
+          </div>
+        </div>
+        <div class="item swiper-slide">
+          <div class="top">
+          <i class="fa-regular fa-heart"></i>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="img">
+          <img src="imgs/pet-sitter-13.jpg" alt="">
+          </div>
+          </div>
+          <h2>Mery Rose</h2>
+          <h3>Sales Assistant & Cashier</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            <i class="fa-regular fa-star"></i>
+                  </div>
+          <div class="buttons">
+            <div class="hire"><i class="fa-solid fa-calendar-minus"></i> Hire Me</div>
+            <div class="view"><i class="fa-solid fa-eye"></i> View</div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="swiper-button-next next-sitter"></div>
+    <div class="swiper-button-prev prev-sitter"></div>
+    <div class="swiper-pagination sitter-pag"></div>
+    </div>
+    </section>
+    <!-- end sitters  -->
+
+    <!-- Start Tests -->
+    <section class="tests padding" id="clients">
+      <div class="container">
+        <div class="section-title"><h1>Our Happy Clients</h1></div>
+        <div class="category">
+           <div class="item" id="item1">
+            <h2>Smith Brown</h2>
+            <h3 class="animate__shakeX">New York</h3>
+            <div class="ima"><img src="imgs/avatar-01.png" alt=""></div>
+            
+              <div class="content">
+                <p>Item purchased was 1/2 the price of what I have been paying for it at the local farm store.
+                  Very easy to find what I needed and easy to order.</p>
+                  <div class="stars">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                  </div>
+          </div>
+          </div>
+           <div class="item" id="item2">
+            <h2>Miller Lopez</h2>
+            <h3>Los Angeles</h3>
+            <div class="ima"><img src="imgs/avatar-02.png" alt=""></div>
+            <div class="content">
+            <p>I was extremely pleased with the order and how fast it was delivered. Thank you so much for the nice experience.
+              My pets loves treats.
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            </div>
+            </div>
+          </div>
+           <div class="item" id="item3">
+            <h2>Taylor Moore</h2>
+            <h3>San Diego</h3>
+            <div class="ima"><img src="imgs/avatar-03.png" alt=""></div>
+            <div class="content">
+            
+            <p>Pet supplies is awesome I love there prices and the delivery time is very quick thank you for your great service.
+              Enjoyed shoping here my first time. 
+            </p>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            </div>
+            </div>
+          </div>
+           <div class="item" id="item4">
+            <h2>Clark Lewis</h2>
+            <h3>Austin</h3>
+            <div class="ima"><img src="imgs/avatar-04.png" alt=""></div>
+            <div class="content">
+            <p>I was never aware of this site, but with having 4 dogs and 12 cats you can be sure I'm looking for the best bargains, and I happened to run onto this site.</p>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+            </div>
+            </div>
+          </div>
+           <div class="item" id="item5">
+            <h2>Merry Patricia</h2>
+            <h3>Las Vegas</h3>
+            <div class="ima"><img src="imgs/avatar-05.png" alt=""></div>
+            <div class="content">
+              <p>I was happy to find your site, I had treated my dog for ear infection and he was having severe diarria. Product worked great.</p>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item" id="item6">
+            <h2>Scott Hall</h2>
+            <div class="ima"><img src="imgs/avatar-06.png" alt=""></div>
+              <h3>Chicago</h3>
+              <div class="content">
+            <p>I love this site. The prices are reasonable, and customer service is always friendly & helpful whenever I need to call with a question.</p>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+                <i class="fa-solid fa-star" style="color: rgb(255, 187, 0);"></i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end tests  -->
+
+    <!-- start events -->
+    <section class="events padding" id="events">
+      <div class="dots dots-up"></div>   
+      <div class="dots dots-down"></div>
+      <div class="container">
+        <div class="section-title">
+          <h1>Adoption Event</h1>
+        </div>
+        <div class="content">
+          <div class="info">
+            <div class="text">
+            <h1>Big Summer Pets Day Adoption Event</h1>
+            <h3>Reduced adoption fees - <span>only $25 </span>!</h3>
+            <p>The first collaborative adoption event in New York.</p>
+          </div>
+          <div class="decrement">
+            <div class="item">
+              <div class="number" id="Days">162</div>
+              <div class="type">Days</div>
+            </div>
+            <div class="item">
+              <div class="number" id="Hours">09</div>
+              <div class="type">Hours</div>
+            </div>
+            <div class="item">
+              <div class="number" id="Minutes">46</div>
+              <div class="type">Minutes</div>
+            </div>
+            <div class="item">
+              <div class="number" id="Seconds">03</div>
+              <div class="type">Seconds</div>
+            </div>
+          </div>
+          </div>
+          <img src="imgs/Adopt a pet.gif" alt="">
+        </div>
+        <form action="">
+          <input type="email" name="" id="" placeholder="Enter your email">
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+    </section>
+    <!-- end events  -->
+
+    <!-- start discount  -->
+    <section class="discount padding" id="discount">
+      <div class="section-title">
+        <h1>Big Summer Sale</h1>
+      </div>
+      <div class="container">
+        <div class="content">
+          <div class="image">
+            <img src="imgs/Discount.gif" alt="">
+          </div>
+          <div class="form">
+            <div class="form-container">
+            <h1>Request a discount</h1>
+            <form action="">
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Your Email">
+              <input type="tel" placeholder="Your Phone">
+              <textarea placeholder="Tell Us About Your Need"></textarea>
+              <input type="submit" value="Send">
+            </form>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+    <!-- end discount -->
+
+
+    <!-- start Footer  -->
+    <section class="footer" id="footer">
+      <div class="container">
+      <div class="brand">
+        <div class="logo">
+            <div class="icon"><i class="fa-solid fa-paw"></i></div>
+            <div class="name">Pets <span>Hub</span></div>            
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt id minus quibusdam temporibus dolore, libero molestiae necessitatibus quia.</p>
+      </div>
+      <div class="links">
+          <h1>Extra Links</h1>
+          <ul>
+            <li> <a href="#">Link 1</a> </li>
+            <li> <a href="#">Link 2</a> </li>
+            <li> <a href="#">Link 3</a> </li>
+            <li> <a href="#">Link 4</a> </li>
+            <li> <a href="#">Link 5</a> </li>
+          </ul>
+        </div>
+        <div class="open">
+          <h1>Opening Hours</h1>
+          <p>Our Support Available to hel you 24 hours a day. We provide Our best</p>
+          <ul>
+            <li>Sun - Thu : 08:00 am - 20:00 am</li>
+            <li>Friday : 09:00 am - 00:00 am</li>
+            <li>Saturday : We are CLOSED !</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h1>Contact Info</h1>
+          <div class="info">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+          <p>Lorem ipsum dolor sit amet elit.
+          </p>
+          </div>
+          <div class="info">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <p>555-847-998</p>
+          </div>
+          <div class="info">
+            <i class="fa-solid fa-envelope"></i>
+            <p>lorem@gmail.com</p>
+          </div>
+        </div>
+        
+        </div>
+        <div class="bottom">
+          <ul class="wrapper">
+          <li class="icon facebook">
+      <span class="tooltip">Facebook</span>
+      <span><i class="fab fa-facebook-f"></i></span>
+    </li>
+    <li class="icon twitter">
+      <span class="tooltip">Twitter</span>
+      <span><i class="fab fa-twitter"></i></span>
+    </li>
+    <li class="icon instagram">
+      <span class="tooltip">Instagram</span>
+      <span><i class="fab fa-instagram"></i></span>
+    </li>
+    <li class="icon github">
+      <span class="tooltip">Github</span>
+      <span><i class="fab fa-github"></i></span>
+    </li>
+    <li class="icon youtube">
+      <span class="tooltip">Youtube</span>
+      <span><i class="fab fa-youtube"></i></span>
+    </li>
+          </ul>
+          <p>made with &lt; 3 by Hakim</p>
+        </div>
+    </section>
+    <!-- end Footer  -->
+    <!-- Js File  -->
+    <script src="js/main.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 25,
+        slidesPerGroup: 3,
+        centerSlide: 'true',
+        fade: 'true',
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".sitter-pag",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".next-sitter",
+          prevEl: ".prev-sitter",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+        slidesPerGroup: 1,
+        pagination: {
+          dynamicBullets: true,
+        },
+          },
+          750: {
+            slidesPerView: 2,
+        slidesPerGroup: 2,
+        pagination: {
+          dynamicBullets: true,
+        },
+          },
+          1000: {
+            slidesPerView: 3,
+        slidesPerGroup: 3,
+
+          },
+        }}
+      );
+      var swiper = new Swiper(".myDogSwiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        slidesPerGroup: 1,
+        centerSlide: 'true',
+        fade: 'true',
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".dog-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".next-dog",
+          prevEl: ".prev-dog",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          680: {
+            spaceBetween: 25,
+            slidesPerView: 2,
+          },
+          920: {
+            spaceBetween: 10,
+            slidesPerView: 3,
+          },
+          1200: {
+            spaceBetween: 10,
+            slidesPerView: 4,
+          },
+        }
+      }
+      );
+      var swiper = new Swiper(".myCatSwiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        slidesPerGroup: 1,
+        centerSlide: 'true',
+        fade: 'true',
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".cat-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".next-cat",
+          prevEl: ".prev-cat",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          680: {
+            spaceBetween: 25,
+            slidesPerView: 2,
+          },
+          920: {
+            spaceBetween: 10,
+            slidesPerView: 3,
+          },
+          1200: {
+            spaceBetween: 10,
+            slidesPerView: 4,
+          },
+        }
+      }
+      );
+      var swiper = new Swiper(".myBirdSwiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        slidesPerGroup: 1,
+        centerSlide: 'true',
+        fade: 'true',
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".bird-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".next-bird",
+          prevEl: ".prev-bird",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          680: {
+            spaceBetween: 25,
+            slidesPerView: 2,
+          },
+          920: {
+            spaceBetween: 10,
+            slidesPerView: 3,
+          },
+          1200: {
+            spaceBetween: 10,
+            slidesPerView: 4,
+          },
+        }
+      }
+      );
+      var swiper = new Swiper(".myBestSwiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        slidesPerGroup: 1,
+        centerSlide: 'true',
+        fade: 'true',
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".best-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        navigation: {
+          nextEl: ".next-best",
+          prevEl: ".prev-best",
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+          },
+          680: {
+            spaceBetween: 25,
+            slidesPerView: 2,
+          },
+          920: {
+            spaceBetween: 10,
+            slidesPerView: 3,
+          },
+          1200: {
+            spaceBetween: 10,
+            slidesPerView: 4,
+          },
+        }
+      }
+      );
+    </script>
+</body>
+</html>
