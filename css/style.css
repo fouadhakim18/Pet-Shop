@@ -259,13 +259,12 @@ header .icons i:hover {
 header .sign {
   position: absolute;
   right: 0;
-  top: 200px;
+  top: 650px;
   opacity: 0;
   border-radius: 7px;
   padding: 0 15px 15px;
   background-color: white;
   transition: 0.3s;
-  z-index: 2000;
 }
 header .sign input:not([type="checkbox"]) {
   padding: 7px;
