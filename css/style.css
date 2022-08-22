@@ -1412,8 +1412,8 @@ textarea:focus::-webkit-input-placeholder {
 }
 @media (max-width: 730px) {
   .products .swiper {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0;
+    padding-right: 40px;
   }
   .products .item p {
     font-size: 14px;
