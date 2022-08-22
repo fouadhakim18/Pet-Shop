@@ -454,7 +454,11 @@ header .icons-humb {
 /* Start landing  */
 .text {
   flex-basis: calc(100% - 500px);
+}
+@media (min-width: 991px) {
+.text {
   margin-right: 25px;
+}
 }
 .text p {
   font-size: 19px;
